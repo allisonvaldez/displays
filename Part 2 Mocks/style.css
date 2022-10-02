@@ -1,0 +1,19 @@
+button {
+	background-color: dodgerblue;
+	color: white;
+	padding: 10px 20px;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	transition-duration: 0.4s;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #115ba2;
+	cursor: pointer;
+}
+
+.container {
+	width: 40%;
+}
