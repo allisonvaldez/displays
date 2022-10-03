@@ -14,6 +14,13 @@ button:hover {
 	cursor: pointer;
 }
 
-.container {
-	width: 40%;
+.card {
+	margin: auto;
+	border: grey 1px solid;
+	border-radius: 10px;
+	width: 30%;
+}
+
+img {
+	width: 100%;
 }
