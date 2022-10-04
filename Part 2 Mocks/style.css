@@ -1,3 +1,5 @@
+/* CSS for Mock Up 1 */
+
 button {
 	background-color: dodgerblue;
 	color: white;
@@ -13,6 +15,8 @@ button:hover {
 	background-color: #115ba2;
 	cursor: pointer;
 }
+
+/* CSS for Mock Up 2 */
 
 .card {
 	background-color: #eeeeee;
@@ -40,4 +44,11 @@ img {
 	font-size: 14px;
 	padding: 15px;
 	border-top: 1px;
+}
+
+/* CSS for Mock Up 3 */
+
+.tile_box {
+	display: flex;
+	justify-content: space-around;
 }
