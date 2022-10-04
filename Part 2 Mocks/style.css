@@ -15,9 +15,11 @@ button:hover {
 }
 
 .card {
-	margin: auto;
+	background-color: #eeeeee;
+	margin: 0 auto;
 	border: grey 1px solid;
-	border-radius: 10px;
+	border-radius: 8px;
+	box-shadow: 0px 2px 2px 0px #bbbbbb;
 	width: 30%;
 }
 
