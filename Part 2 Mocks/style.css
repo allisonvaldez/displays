@@ -47,8 +47,12 @@ img {
 }
 
 /* CSS for Mock Up 3 */
-
-.tile_box {
+.tiles {
 	display: flex;
 	justify-content: space-around;
+}
+
+.tile_box {
+	width: 300px;
+	height: 300px;
 }
