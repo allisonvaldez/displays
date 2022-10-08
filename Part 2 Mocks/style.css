@@ -52,7 +52,40 @@ img {
 	justify-content: space-around;
 }
 
-.tile_box {
+.tile_boxes {
 	width: 300px;
 	height: 300px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 8px;
+	border: 8px solid peachpuff;
+	background-color: peachpuff;
+}
+
+.img1,
+.img2,
+.img3 {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	background-size: cover;
+	background-position: center;
+}
+
+.display_title {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	color:#eeeeee;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 300px;
+	transition: top 0.10s;
+	display: flex;
+	justify-content: center;
+	font-size: 64px;
+	text-align: center;
+}
+
+.tile_boxes:hover .display_title {
+	top: 0;
 }
